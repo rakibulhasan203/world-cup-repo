@@ -1,0 +1,50 @@
+/*------------ 
+greatest-blogs
+--------------
+*/
+
+body{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.greatest-blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 1200px;
+    height: 340px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 30px;
+    padding-left: 100px;
+    margin-bottom: 50px;
+}
+
+.button{
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    border-radius: 2px;
+    padding: 5px;
+    font-weight: 500;
+}
+
+/* 
+upcoming-match
+ */
+
+.upcoming-match{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.right-blog{
+    text-decoration: none;
+    background-color: tomato;
+    color: white;
+    border-radius: 5px;
+    padding: 20px;
+    font-weight: 700;
+    margin-left: 200px;
+}
