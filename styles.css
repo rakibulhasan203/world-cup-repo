@@ -60,12 +60,17 @@ upcoming-match
 .transfer-live{
     background-color: whitesmoke;
     height: 200x;
-    width: 350px;
+    width: 250px;
     margin-top: 50px;
     margin-left: 70px;
     padding-left: 30px;
     padding-top: 10px;
     border-radius: 10px;
+}
+
+.live-match{
+    color: black;
+    font-weight: 900;
 }
 
 .transfer{
@@ -133,5 +138,3 @@ hr{
         grid-template-columns: repeat(4, 1fr);
     }
 }
-
-
