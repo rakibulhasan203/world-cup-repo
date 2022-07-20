@@ -1,13 +1,12 @@
-/*------------ 
-greatest-blogs
---------------
-*/
-
 body{
     font-family: 'Anton', sans-serif;
     font-family: 'Mochiy Pop One', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
+
+/* 
+greatest-blogs */
+
 .greatest-blogs{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -16,10 +15,10 @@ body{
     background-color: black;
     color: white;
     border-radius: 20px;
-    margin: auto;
+    margin-left: 100px;
     margin-top: 30px;
     padding-left: 100px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 .button{
@@ -41,10 +40,56 @@ upcoming-match
 }
 .right-blog{
     text-decoration: none;
-    background-color: tomato;
+    background-color: blue;
     color: white;
     border-radius: 5px;
     padding: 20px;
     font-weight: 700;
     margin-left: 200px;
+}
+
+/* transfer-live */
+
+.main-blog{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 100px;
+}
+
+.transfer-live{
+    background-color: whitesmoke;
+    height: 200x;
+    width: 350px;
+    margin-top: 50px;
+    margin-left: 70px;
+    padding-left: 30px;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+
+.transfer{
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+/* main-goal */
+
+.main-goal{
+    background-color: black;
+    width: auto;
+    height: 400px;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+}
+
+hr{
+    height: 1px;
+    width: 1000px;
+}
+.display-grid{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
 }
