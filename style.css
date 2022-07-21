@@ -38,6 +38,7 @@ upcoming-match
 .upcoming-match{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 50px;
 }
 .right-blog{
     text-decoration: none;
